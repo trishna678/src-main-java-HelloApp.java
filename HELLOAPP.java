@@ -2,9 +2,8 @@ public class HelloApp {
 
     public static void main(String[] args) {
 
-        // Print greeting message
+        // UC1: Display Hello World in the console
         System.out.println("Hello World");
 
     }
-
 }
