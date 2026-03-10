@@ -1,0 +1,22 @@
+public class HelloApp {
+
+    public static void main(String[] args) {
+
+        // Check if command-line argument exists
+        if (args.length > 0) {
+
+            // Read the first argument
+            String name = args[0];
+
+            // Display personalized greeting
+            System.out.println("Hello, " + name + "!");
+
+        } else {
+
+            // Default greeting when no argument is provided
+            System.out.println("Hello, World!");
+
+        }
+
+    }
+}
